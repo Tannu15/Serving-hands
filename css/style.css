@@ -250,7 +250,7 @@ button {
 }
 
 .login_text a:hover{
-     color: #676868;
+     color: #ffffff;
 }
 
 .banner_section {
@@ -323,29 +323,13 @@ button {
      width: 20%;
      margin: 0 auto;
      text-align: center;
-     width: 100%;
-            border:none;
-            background:rgba(0,0,0,.1);
-            color: #131212;
-            font: 15px/24px 'OpenSans-Light-webfont';
-            height:80px;
-            margin-bottom: 5px;
-            padding-top:10px;
-            padding-bottom:10px;
-            padding-left:0;
-            padding-right:0;
-          -webkit-transition: all .35s ease-in-out;
-          -moz-transition: all .35s ease-in-out;
-          -ms-transition: all .35s ease-in-out;
-          -o-transition: all .35s ease-in-out;
-          transition: all .35s ease-in-out;
-
+     
 }
 
 .discover_bt {
-    width: 100%;
+    width:30vw;
     float: left;
-    margin-top: 50px;
+    margin-top:"50px";
 }
 
 .discover_bt a{
@@ -421,7 +405,7 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #5d18b8;
+    background-color: rgba(0, 0, 0);
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1079,23 +1063,4 @@ input.btn_main_3::placeholder {
     height: 50px;
     border-radius: 30px;
     margin-top: 20px;
-}
-.styling {
-     width: 100%;
-            border:none;
-            background:rgba(0,0,0,.1);
-            color: #131212;
-            font: 15px/24px 'OpenSans-Light-webfont';
-            height:80px;
-            margin-bottom: 5px;
-            padding-top:10px;
-            padding-bottom:10px;
-            padding-left:0;
-            padding-right:0;
-          -webkit-transition: all .35s ease-in-out;
-          -moz-transition: all .35s ease-in-out;
-          -ms-transition: all .35s ease-in-out;
-          -o-transition: all .35s ease-in-out;
-          transition: all .35s ease-in-out;
-
 }

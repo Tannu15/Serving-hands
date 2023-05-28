@@ -323,6 +323,23 @@ button {
      width: 20%;
      margin: 0 auto;
      text-align: center;
+     width: 100%;
+            border:none;
+            background:rgba(0,0,0,.1);
+            color: #131212;
+            font: 15px/24px 'OpenSans-Light-webfont';
+            height:80px;
+            margin-bottom: 5px;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:0;
+            padding-right:0;
+          -webkit-transition: all .35s ease-in-out;
+          -moz-transition: all .35s ease-in-out;
+          -ms-transition: all .35s ease-in-out;
+          -o-transition: all .35s ease-in-out;
+          transition: all .35s ease-in-out;
+
 }
 
 .discover_bt {
@@ -579,6 +596,13 @@ button {
      float: left;
      margin-top: 90px;
 }
+
+.box2{
+          width: 100%;
+          float: left;
+          margin-top: 90px;
+          display: block;
+     }
 
 .find_bt {
     width: 15%;
@@ -1055,4 +1079,23 @@ input.btn_main_3::placeholder {
     height: 50px;
     border-radius: 30px;
     margin-top: 20px;
+}
+.styling {
+     width: 100%;
+            border:none;
+            background:rgba(0,0,0,.1);
+            color: #131212;
+            font: 15px/24px 'OpenSans-Light-webfont';
+            height:80px;
+            margin-bottom: 5px;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:0;
+            padding-right:0;
+          -webkit-transition: all .35s ease-in-out;
+          -moz-transition: all .35s ease-in-out;
+          -ms-transition: all .35s ease-in-out;
+          -o-transition: all .35s ease-in-out;
+          transition: all .35s ease-in-out;
+
 }

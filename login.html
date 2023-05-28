@@ -31,7 +31,7 @@
   <link rel="stylesoeet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
     media="screen">
-
+<link rel="stylesheet" href="./css/loading_button.css" >
 </head>
 
 <body>
@@ -81,14 +81,14 @@
           <div class="card card-signin my-5">
             <div class="card-body">
               <h5 class="card-title text-center">Log In</h5>
-              <!-- <form class="form-signin"> -->
+              <!-- <form id="Form" class="form-signin"> -->
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <input type="email" id="email" class="form-control" placeholder="Email address" required autofocus>
                 <label for="inputEmail">Email address</label>
               </div>
 
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" id="password" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Password</label>
               </div>
 
@@ -96,7 +96,9 @@
                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                 <label class="custom-control-label" for="customCheck1">Remember password</label>
               </div>
-              <button id="login" class="btn btn-lg btn-primary btn-block text-uppercase">Log In</button>
+             
+              <button id="login" class="btn btn-lg btn-primary btn-block text-uppercase buttonloading"> <span >Login</span></button>
+
               <hr class="my-4">
               <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
                   class="fab fa-google mr-2"></i> Log In with Google</button>
@@ -160,8 +162,19 @@
         // closeEffect: "none"
         // });
         // </script>
-  <script src="js/auth.js"></script>
 
+        <!-- added by me -->
+  <script src="js/auth/login.js
+  "></script>
+
+  <script>
+    const theButton = document.querySelector(".buttonloading");
+ 
+ theButton.addEventListener("click", () => {
+     theButton.classList.add("button--loading");
+ });
+  </script>
+<!-- end of me -->
 
   <!-- added by me -->
 </body>

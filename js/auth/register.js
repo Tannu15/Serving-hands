@@ -36,10 +36,12 @@ async function register() {
     .then((response) => response.json())
     .then((data) => {
       // Handle the response from the server
+      alert("Registered successful!");
     })
     .catch((error) => {
       // Handle any errors that occurred during the request
-      console.error("Error:", error);
+      // console.error("Error:", error);
+      alert("error:", error);
     });
   //   return response.json();
 

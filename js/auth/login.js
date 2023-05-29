@@ -29,11 +29,11 @@ async function signIn() {
     .then((response) => response.json())
     .then((data) => {
       // Handle the response from the server
-    
+      alert(data.message);
     })
     .catch((error) => {
       // Handle any errors that occurred during the request
-      console.error("Error:", error);
+      alert("Error:", error);
     });
   //   return response.json();
 
